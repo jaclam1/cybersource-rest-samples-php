@@ -1,7 +1,7 @@
 <?php
 
 /*
- * A class to convert CSV Excel file to JSON.
+ * A class to convert CSV Excel file to JSON. 
  * First row will be the header defining the key name of each field (column). Dot notation is supported to indicate nested element. 
  * For example, the value "d" of a column with name "a.b.c" will be converted to { "a": { "b": { "c": "d" }}}
  * Each row will be inserted as a JSON element into the final JSON array.
